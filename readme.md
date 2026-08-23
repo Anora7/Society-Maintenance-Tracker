@@ -5,6 +5,27 @@ track their full status history, surface overdue issues, run an admin
 dashboard, and keep residents informed via a notice board and email
 notifications.
 
+## Live Demo
+
+- **Frontend**: https://society-maintenance-tracker-seven-alpha.vercel.app/
+- **Backend API**: https://society-maintenance-tracker-api-s3q6.onrender.com/api/
+
+> Note: the backend is hosted on Render's free tier, which sleeps after 15
+> minutes of inactivity. The first request may take 30–50 seconds to respond
+> while it wakes up.
+
+## Sample Accounts
+
+For testing/demo purposes, the following accounts are available on the live deployment:
+
+| Username | Password | Role |
+|---|---|---|
+| Anora | anora123* | Admin |
+| Resident1 | resident234* | Resident |
+| Resident2 | resident123* | Resident |
+| resident3 | resident345* | Resident |
+
+
 ## Tech Stack
 
 - **Backend**: Django + Django REST Framework, JWT auth (SimpleJWT)
@@ -171,17 +192,6 @@ Content-Type: application/json
 
 {"status": "In Progress", "priority": "High", "note": "Plumber scheduled"}
 ```
-
-## Sample Accounts
-
-For testing/demo purposes, the following accounts are available on the live deployment:
-
-| Username | Password | Role |
-|---|---|---|
-| Anora | anora123* | Admin |
-| Resident1 | resident234* | Resident |
-| Resident2 | resident123* | Resident |
-| resident3 | resident345* | Resident |
 
 ## Deployment
 
