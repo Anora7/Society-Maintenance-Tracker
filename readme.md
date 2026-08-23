@@ -172,6 +172,17 @@ Content-Type: application/json
 {"status": "In Progress", "priority": "High", "note": "Plumber scheduled"}
 ```
 
+## Sample Accounts
+
+For testing/demo purposes, the following accounts are available on the live deployment:
+
+| Username | Password | Role |
+|---|---|---|
+| Anora | anora123* | Admin |
+| Resident1 | resident234* | Resident |
+| Resident2 | resident123* | Resident |
+| resident3 | resident345* | Resident |
+
 ## Deployment
 
 1. **Database**: create a free Postgres instance on Supabase or Neon, copy
